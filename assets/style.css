@@ -103,7 +103,6 @@ button:focus {
 
 .panel {
   text-align: center;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -141,7 +140,6 @@ button:focus {
 .content-box-header {
   margin: 0;
   padding: 0;
-
   font-size: 1.5em;
   font-weight: 400;
   display: flex;
@@ -163,29 +161,6 @@ button:focus {
   margin: 1em auto;
 }
 
-.search-input {
-  width: 100%;
-  font-size: 1em;
-  padding: 1em;
-  color: #fff;
-  height: 50px;
-  background: #2b303b;
-  border: none;
-  padding-left: 2em;
-}
-
-.search-box {
-  white-space: nowrap;
-  position: relative;
-  vertical-align: middle;
-}
-
-.search-results-container {
-  padding-left: 0.5em;
-  margin: 1em 0;
-  font-size: x-large;
-  line-height: 2em;}
-
 .icon-arrow {
   font-size: 1.5em;
   vertical-align: text-top;
@@ -204,20 +179,3 @@ button:focus {
   background-color: #fff;
   float: right;
 }
-
-.breadcrumbs {
-  width: 95%;
-  margin: 0.5em;
-  height: 1em;
-}
-
-
-.dropbtn {background-color:transparent;font-size: 1em;vertical-align: text-top;font-weight: 500;}
-.dropbtn:hover, .dropbtn:focus {background-color: transparent;}
-.dropdown {position: relative;  display: inline-block;}
-.dropdown-content {display: none; position: absolute; background-color: transparent; box-sizing: border-box;}
-.dropdown-content a {text-decoration: none;display: block;text-transform: capitalize;margin:0;padding:0;}
-.dropdown-content a:hover {background-color: transparent;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color:transparent;}
-.show {display:block;}

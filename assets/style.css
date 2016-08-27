@@ -86,10 +86,11 @@ button:focus {
 }
 
 .site-title {
-  margin: 0 0 1em;
-  color: #4B5;
-  font-weight: 400;
-  font-size: 1em;
+    margin: 0 0 1em;
+    color: #4B5;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-transform: capitalize;
 }
 
 .site-title a {
